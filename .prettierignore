@@ -1,0 +1,18 @@
+# Ignore artifacts:
+node_modules
+build
+coverage
+public
+vpcendpoint
+securitygroup
+infra
+frontend-certs
+docs
+AndroidAgent
+database
+deployment-cookbooks
+deployment-packages
+cf-templates
+
+serverless.yml
+infrastructure.yml
