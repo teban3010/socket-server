@@ -11,6 +11,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use(cors());
 
 app.post(
@@ -18,7 +19,7 @@ app.post(
   withErrorHandler((req: Request, res: Response) => {
     sendMessage(req.body);
 
-    res.status(200).send();
+    res.status(204).send();
   })
 );
 
